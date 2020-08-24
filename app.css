@@ -1,0 +1,33 @@
+.auto-complete {
+  position: relative;
+}
+
+.auto-complete__suggestions {
+  background: rgba(0, 0, 0, 0.8);
+  color: #FFF;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  display: none;
+  max-height: 100px;
+  overflow: auto;
+  max-width: 200px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.auto-complete__suggestions--on {
+  display: block;
+}
+
+.auto-complete__suggestions li {
+  list-style: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.auto-complete__suggestions li:hover {
+  background: blue;
+}
+/*# sourceMappingURL=app.css.map */
